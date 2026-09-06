@@ -1,0 +1,62 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+glcd_state                                                                        0x026A      29
+outstatus                                                                         0x0287       8
+ks0108_coord                                                                      0x028F       3
+_seed                                                                             0x0292       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R4,R5        2
+d                                                                                 R6,R7        2
+ls                                                                                R8,R9        2
+devicenum                                                                         R10,R11      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+loading                                                                           0x00567     74
+enchoder                                                                          0x005B1     49
+select                                                                            0x005E2    148
+ext_int0_isr                                                                      0x00676    162
+main                                                                              0x00718     75
+ks0108_enable_G100                                                                0x00763      4
+ks0108_disable_G100                                                               0x00767      4
+ks0108_rdbus_G100                                                                 0x0076B      7
+ks0108_busy_G100                                                                  0x00772     24
+ks0108_wrcmd_G100                                                                 0x0078A      6
+ks0108_setloc_G100                                                                0x00790     18
+ks0108_gotoxp_G100                                                                0x007A2     16
+ks0108_nextx_G100                                                                 0x007B2     21
+ks0108_wrdata_G100                                                                0x007C7      9
+ks0108_rddata_G100                                                                0x007D0      9
+ks0108_rdbyte_G100                                                                0x007D9     11
+glcd_init                                                                         0x007E4    101
+glcd_clear                                                                        0x00849     38
+glcd_putpixel                                                                     0x0086F     39
+ks0108_wrmasked_G100                                                              0x00896     59
+glcd_block                                                                        0x008D1    477
+glcd_clipx                                                                        0x00AAE     21
+glcd_clipy                                                                        0x00AC3     21
+glcd_imagesize                                                                    0x00AD8     44
+glcd_getcharw_G101                                                                0x00B04    111
+glcd_new_line_G101                                                                0x00B73     20
+glcd_putchar                                                                      0x00B87    101
+glcd_outtextxy                                                                    0x00BEC     20
+glcd_putimagef                                                                    0x00C00     46
+glcd_putpixelm_G101                                                               0x00C2E     26
+glcd_moveto                                                                       0x00C48     12
+glcd_line                                                                         0x00C54    246
+glcd_corners_G101                                                                 0x00D4A     43
+glcd_rectangle                                                                    0x00D75     52
+memset                                                                            0x00DA9     16
+glcd_getmask                                                                      0x00DB9     11
+glcd_mappixcolor1bit                                                              0x00DC4     40
+glcd_readmem                                                                      0x00DEC     31
+glcd_writemem                                                                     0x00E0B     31
