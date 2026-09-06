@@ -1,6 +1,6 @@
 # Digital AVR ATmega32 Control System
 
--The code text ---> |gl.c file|
+-The code text --->  |  Src/Digital Menu(Code)/Debug/gl.c file  |
 
 **Rotary Encoder Select & Toggle Controller and show in Graphical LCD**
 
