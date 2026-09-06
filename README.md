@@ -1,5 +1,5 @@
 # Digital AVR ATmega32 Control System
-
+-The code text ---> gl.c file
 **Rotary Encoder Select & Toggle Controller and show in Graphical LCD**
 
 A complete embedded system based on **ATmega32** microcontroller. The system allows the user to **select** between multiple relay outputs using a rotary encoder and then **toggle** the selected relay on/off by pressing the encoder button.
